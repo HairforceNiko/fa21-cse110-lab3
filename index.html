@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Fangqi Yuan Lab2</title>
+        <meta name="color-scheme" content="dark">
+        <link rel="icon" 
+        type="image/jpg" 
+        href="rikka.jpg">
+    </head>
+    <body>
+        <header>
+            <h1>Fangqi Yuan Lab2</h1>
+        </header>
+        <nav>
+            <h1>Anime Navigation</h1>
+            <ul>
+                <li><a href="rikka.jpg"><strong>Takanashi Rikka</strong></a></li>
+                <li><a href="Rinne.jpg">Rinne Ohara</a></li>
+                <li><a href="Aria.jpg">Aria Holmes Kanzaki</a></li>
+           </ul>
+        </nav>
+        <hr>
+        <section>
+            <h1>Japanese Anime</h1>
+            <p>Japanese anime is fantastic!</p>
+            <ol>
+                <li>Fullmetal Alchemist
+                <li>Death Note
+                <li>Cowboy Bebop
+            </ol>
+        </section>  
+        <main>
+            <hr>
+            <h1>Rikka Takanashi</h1>
+            <div lang="en-GB" class="main-container">
+                <p><b>Rikka Takanashi</b> is the female protagonist in the Japanese light novel series and anime, Chūnibyō Demo Koi ga Shitai!.
+                    She is the founder and leader of the club she made named Far Eastern Magic Napping Society of Summer.
+                    She is voiced by Maaya Uchida in the anime. In the English Dub, she is voiced by Margaret McDonald.</p>
+                <p><i>Rikka Takanashi</i> has <span style="color:blue">blue</span> and <span style="color:yellow">yellow</span> eyes.</p>
+            </div>
+            <p><em>Rikka Takanashi is a <em>cute</em> character!</em></p>
+            <img src="rikka.jpg" loading=eager alt="1">
+            <hr>
+        </main>
+        <section>
+            <h1>Address</h1>
+            <p>3535 Lebon Drive<br>
+                Apt 3109<br>
+                La Jolla, CA 92122</p>
+        </section>
+        <hr>
+        <section>
+            <h1>Audio Section</h1>
+            <p>红花会陪你过圣诞节</p>
+            <audio controls autoplay muted>
+                <source src="hhh.mp3" type="audio/mpeg">
+            </audio>
+        </section>
+        <hr>
+        <section>
+            <h1>Video Section</h1>
+            <p>红花会陪你过圣诞节</p>
+            <video width="320" height="240" controls autoplay muted>
+                <source src="hhh.mp4" type="video/mp4">
+            </video>
+        </section>
+        <hr>
+        <section>
+            <p>This is a Google search :)</p>
+            <form action="https://www.google.com/search" method="get">
+                <label>Google: <input type="search" name="q"></label> <input type="submit" value="Search...">
+            </form>
+        </section>
+        <hr>
+        <section class="progress window">
+            <h1>Copying "红花会陪你过圣诞节"</h1>
+            <details>
+                <summary>Copying... <progress max="375505392" value="97543282"></progress> 25%</summary>
+                <dl>
+                    <dt>Transfer rate:</dt> <dd>975KB/s</dd>
+                    <dt>Local filename:</dt> <dd>/C:/Desktop/hhh.mp4</dd>
+                    <dt>Duration:</dt> <dd>01:24:32</dd>
+                </dl>
+            </details>
+        </section>
+        <hr>
+        <hgroup>
+            <h1>Fangqi Yuan ></h1>
+            <h2>Dongyang Huang ></h2>
+            <h3>Enze Ma</h3>
+        </hgroup>
+        <hr>
+        <section>
+            <label>
+                Card Type:
+                <input name=card list=types>
+                <datalist id=types>
+                    <option value="Visa">
+                    <option value="Mastercard">
+                </datalist>
+            </label>
+            <fieldset name="usecard" disabled>
+                <legend> <label>
+                    <input type=checkbox name=card onchange="form.usecard.disabled = !checked"> Use Debit/Credit Card?
+                </label> </legend>
+            </fieldset>
+            <p>
+                <label for="num">Select a number:</label>
+                <select id="num" name="num">
+                    <option value="1"> 1 </option>
+                    <option value="2"> 2 </option>
+                    <option value="3" selected> 3 </option>
+                    <option value="4"> 4 </option>
+                    <option value="5"> 5 </option>
+                </select>
+            </p>
+            <p>If you have any short comments, please let us know: <textarea cols=80 name=comments maxlength=200></textarea></p>
+        </section>
+        <hr>
+        <section>
+            <h1>Which type of card you use?</h1>
+            <p> <label>
+                <input type=radio checked name=type>
+                Visa
+            </label> </p>
+            <p> <label>
+                <input type=radio name=type>
+                Mastercard
+            </label> </p>
+            <p>Card Num:<input type="text" id="lname" name="lname"></p>
+            <p>Holder Name:<input type="text" id="lname" name="lname"></p>
+            <p>Expire Date:<input type="date" id="exp" name="exp"></p>
+            <button type=button
+            onclick="alert('Successful Submission.')">
+                Submit
+            </button>
+        </section>
+        <hr>
+        <footer>
+            <P>Published <TIME DATETIME="2021-10-03T18:26-07:00">on 2021/10/03 at 6:26pm</TIME></P>
+        </footer> 
+    </body>
+</html>
