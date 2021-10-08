@@ -1,9 +1,9 @@
 ---
 name: Custom issue template
-about: Describe this issue template's purpose here.
-title: ''
-labels: ''
-assignees: ''
+about: Create meeting minutes template
+title: Create meeting minutes template
+labels: documentation
+assignees: HairforceNiko
 
 ---
 
