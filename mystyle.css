@@ -1,8 +1,138 @@
-body {
-  background-color: lightblue;
+header {
+  /*this is a comment for header*/
+  text-align: center;
+  background: rgba(255,255,255,.5);
+  font-size: 4em;
+  width: 498px;
+  position: relative;
+  top: 10px; left: 10px;
+}
+
+nav {
+  background-color: darkblue;
+  width: 20vw;
+  font-size: 3ex;
+  border-style: dashed solid;
+  border-color: red #32a1ce;
+  border-width: 0.5em;
+  border-radius: 10% / 50%;
+  position: sticky;
+  top: 10px;
 }
 
 h1 {
-  color: navy;
-  margin-left: 20px;
+  background-color: #000000;
+  text-decoration: underline dotted;
+  display: block;
+  position: static;
+}
+
+h2 {
+  background-color: hsl(16, 50%, 50%);
+  width: 5cm;
+  font-size: 20Q;
+  color: blue;
+  display: inline-block;
+}
+
+.main-container{
+  display: inline;
+}
+
+.section-animelist {
+  height: 250px;
+  width: 400px;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.section-none {
+  display: none;
+}
+
+a:hover {
+  background-color: white;
+}
+
+a:active {
+  color: red;
+}
+
+.main-container {
+  display: grid;
+}
+
+.progress-window {
+  display: flex;
+}
+
+@media (width: 360px) {
+  .address {
+    color: red;
+  }
+}
+
+/* Minimum width */
+@media (min-width: 35rem) {
+  .address {
+    background: grey;
+  }
+}
+
+/* Maximum width */
+@media (max-width: 50rem) {
+  .address {
+    border: 2px solid blue;
+  }
+}
+
+p {
+  font-family: Roboto, "Trebuchet MS", Verdana, sans-serif;
+}
+
+* {
+  text-align: center;
+  color: white;
+}
+
+#progress-title {
+  text-align: left;
+  color: red;
+}
+
+a[href="rikka.jpg"] {
+  color: red;
+}
+
+h2,
+h3 {
+  border: red 2px solid;
+}
+
+li {
+  list-style-type: disc;
+}
+
+li li {
+  list-style-type: circle;
+}
+
+span {
+  background-color: grey;
+}
+
+p > span {
+  background-color: dodgerblue;
+}
+
+h1 ~ p {
+  color: yellow;
+}
+
+li:first-of-type + li {
+  color: red;
+}
+
+h1.title-video {
+  color: green;
 }
