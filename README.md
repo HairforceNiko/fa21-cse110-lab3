@@ -1,1 +1,1 @@
-https://hairforceniko.github.io/Lab2/
+https://hairforceniko.github.io/fa21-cse110-lab3/
