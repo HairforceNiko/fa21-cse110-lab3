@@ -10,7 +10,7 @@
     </head>
     <body>
         <header>
-            <h1>Fangqi Yuan Lab2</h1>
+            <p> Fangqi Yuan Lab2</p>
         </header>
         <nav>
             <h1>Anime Navigation</h1>
@@ -18,19 +18,34 @@
                 <li><a href="rikka.jpg"><strong>Takanashi Rikka</strong></a></li>
                 <li><a href="Rinne.jpg">Rinne Ohara</a></li>
                 <li><a href="Aria.jpg">Aria Holmes Kanzaki</a></li>
-           </ul>
+            </ul>
         </nav>
-        <hr>
-        <section>
+        <section class="section-animelist">
             <h1>Japanese Anime</h1>
             <p>Japanese anime is fantastic!</p>
             <ol>
                 <li>Fullmetal Alchemist
+                    <ol>
+                        <li>2017
+                        <li>2 seasons
+                    </ol>
                 <li>Death Note
+                    <ol>
+                        <li>2008
+                        <li>3 seasons
+                    </ol>
                 <li>Cowboy Bebop
+                    <ol>
+                        <li>2002
+                        <li>2 seasons
+                    </ol>
             </ol>
         </section>  
-        <main>
+        <section class="section-none">
+            <h1>Japanese Anime</h1>
+            <p>Japanese anime is fantastic!</p>
+        </section>  
+        <main class="main-container">
             <hr>
             <h1>Rikka Takanashi</h1>
             <div lang="en-GB" class="main-container">
@@ -43,11 +58,12 @@
             <img src="rikka.jpg" loading=eager alt="1">
             <hr>
         </main>
-        <section>
+        <section class="address">
             <h1>Address</h1>
             <p>3535 Lebon Drive<br>
                 Apt 3109<br>
                 La Jolla, CA 92122</p>
+                <span style="color:blue">blue</span> and <span style="color:yellow">yellow</span>
         </section>
         <hr>
         <section>
@@ -59,7 +75,7 @@
         </section>
         <hr>
         <section>
-            <h1>Video Section</h1>
+            <h1 class="title-video">Video Section</h1>
             <p>红花会陪你过圣诞节</p>
             <video width="320" height="240" controls autoplay muted>
                 <source src="hhh.mp4" type="video/mp4">
@@ -73,8 +89,8 @@
             </form>
         </section>
         <hr>
-        <section class="progress window">
-            <h1>Copying "红花会陪你过圣诞节"</h1>
+        <section class="progress-window">
+            <h1 id="progress-title">Copying "红花会陪你过圣诞节"</h1>
             <details>
                 <summary>Copying... <progress max="375505392" value="97543282"></progress> 25%</summary>
                 <dl>
@@ -83,6 +99,9 @@
                     <dt>Duration:</dt> <dd>01:24:32</dd>
                 </dl>
             </details>
+            <audio controls muted>
+                <source src="hhh.mp3" type="audio/mpeg">
+            </audio>
         </section>
         <hr>
         <hgroup>
@@ -94,8 +113,8 @@
         <section>
             <label>
                 Card Type:
-                <input name=card list=types>
-                <datalist id=types>
+                <input name="card" list="types">
+                <datalist id="types">
                     <option value="Visa">
                     <option value="Mastercard">
                 </datalist>
